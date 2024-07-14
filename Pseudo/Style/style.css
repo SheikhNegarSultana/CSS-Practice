@@ -1,0 +1,29 @@
+/* Hover Styling */
+.hover-design:hover{
+   color: blueviolet;
+   background-color: black;
+}
+
+/* focus styling (Anchor Tag) */
+.studing-focus :focus{
+    color: aqua;
+    background-color: black;
+    border: 2px solid salmon;
+    outline: none;
+}
+
+
+/* List Tag Style */
+
+/* .child:first-child{
+  color: chartreuse;
+
+}
+.child:last-child{
+    color: darkblue;
+    
+} */
+
+.child:nth-child(2n){
+    color: darkgreen;
+}
